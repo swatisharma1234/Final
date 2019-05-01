@@ -26,7 +26,7 @@ names(qn.data) <- var.labels[names(qn.data)]
 
 
 
-# Define UI for application that draws a histogram
+# Define UI for application showing tabs for all three plots
 ui <- fluidPage(
   
   # Application title
@@ -55,7 +55,7 @@ ui <- fluidPage(
   )
 )
 
-# Define server logic required to draw a histogram
+# Define server logic for showing tabs all three plots
 server <- function(input, output) {
   mydata
   # Plot 3 Clustering cases of malnutrition based on variable selected by user
